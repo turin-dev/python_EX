@@ -17,7 +17,7 @@
 ```python
 from pathlib import Path
 
-p = Path('.')
+p = Path('')
 for py_file in p.rglob('*.py'):
     print(py_file)
 ```

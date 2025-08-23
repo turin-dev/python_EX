@@ -34,7 +34,7 @@ def demonstrate_path_properties(path: Path) -> None:
 
 
 if __name__ == "__main__":
-    base = Path('.')
+    base = Path('')
     print("Listing Python files in current directory tree:")
     list_python_files(base)
     print("\nCreating and reading a text file:")
